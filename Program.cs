@@ -1,4 +1,4 @@
-sing System;
+using System;
 
 abstract class Character
 {
