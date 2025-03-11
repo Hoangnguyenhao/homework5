@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 abstract class Character
 {
@@ -22,7 +22,7 @@ class Archer : Character
 
     public override void Attack(Character target)
     {
-        Console.WriteLine($"{Name} bắn tên vào {target.Name} gây {AttackPower} sát thương!");
+        Console.WriteLine($"{Name} ban ten vao {target.Name} gây {AttackPower} sát thương!");
         target.Health -= AttackPower;
     }
 }
@@ -44,7 +44,7 @@ class Mage : Character
 
     public override void Attack(Character target)
     {
-        Console.WriteLine($"{Name} dùng phép thuật tấn công {target.Name} gây {AttackPower} sát thương!");
+        Console.WriteLine($"{Name} dung phep thuat tan cong {target.Name} gây {AttackPower} sát thương!");
         target.Health -= AttackPower;
     }
 }
